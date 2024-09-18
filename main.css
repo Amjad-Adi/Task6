@@ -1,0 +1,758 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height: 100%;
+}
+nav{
+display: flex;
+flex-wrap: wrap;
+width:80%;
+height: 100%;
+justify-content: space-between;
+}
+
+.Logo{
+    width: 100%;
+    height: 100%;
+}
+
+.Nav_List{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+list-style-type: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: larger;
+}
+
+.Logo_Container{
+    width:13%;
+    height: 100%;
+}
+
+.Nav_List_Container{
+width: 40%;
+height: 100%;
+align-content: center;
+}
+
+.Container{
+width: 100%;
+height: 70px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: #f7f7f7;
+position:fixed;
+top:0;
+z-index:2000;
+}
+
+.Text{
+    text-decoration: none;
+    color:#a7a7a7;
+    transition: all 1.5s
+}
+.Text:hover{
+    color: rgb(203, 43, 25);
+}
+
+header{
+    width:100%;
+    background-image: url(Lec8_Class_Images/Header_Background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Header_Img{
+width:100%;
+height: 220px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 10%;
+}
+
+.Txt1_Header{
+    font-size: 450%;
+    color:white ;
+    font-family: "Quicksand", serif;
+}
+
+.Header_Logo{
+    width: 30%;
+    height: 100%;
+}
+
+.Header_Txt1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.Header_Txt2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Txt2_Header{
+        font-size: 200%;
+        color:white ;
+        font-family: "Sofia", serif;
+        font-style: oblique;
+}
+
+.Header_Button_Row{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1%;
+    margin-top: 2%;
+}
+
+.Button{
+    width: 100%;
+    height: 100%;
+    border-radius:8px;
+    
+}
+
+.Header_Button_Form{
+width:9%;
+}
+
+#Button1{
+background-color: #c1ab84;
+color: white;
+font-size: 15px;
+font-weight:bolder;
+transition: all;
+transition-duration: 0.25s;
+}
+
+#Button1:hover{
+    background-color: white;
+    color: black;
+}
+
+#Button2{
+background-color: #ffffff;
+color:black;
+font-size:15px;
+font-weight: bolder;
+transition: all;
+transition-duration: 0.25s;
+}
+
+#Button2:hover{
+    background-color: rgb(207, 203, 203);
+    color: black;
+}
+
+.First_Sec{
+width: 100%;
+height: 930px;
+background-color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.First_SEC_Image_Div{
+    width: 40%;
+    height: 80%;
+}
+
+.First_SEC_Text_Div{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Chef_Image{
+    width: 100%;
+    height: 100%;
+}
+
+.Second_Sec{
+width: 100%;
+height: 663.64px;
+background-color: #f8f8f8;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+    
+.Section_Container{
+width: 80%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: center;
+}
+
+.Second_SEC_Text_Div{
+width: 40%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.Sections_Titels_Writing_Style1{
+font-family: "Slabo 27px", serif;
+    color: #253048;
+    font-size: 26px;
+    height: 10%;
+}
+
+.Sections_Titels_Writing_Style2{
+    color: #c1ab84;
+    font-size: 20px;
+    font-family: "Sofia", serif;
+    font-style: oblique;
+    height: 8%;
+}
+
+.First_Section_List{
+    width: 100%;
+    height: 30%;
+margin-top: 2%;
+list-style-type: none;
+line-height: 200%;
+color: #969696;
+display: flex;
+flex-wrap: wrap;
+align-content: space-between;
+}
+
+
+.Icon{
+    width:40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #c1ab84;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.List_Icons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap:2%;
+}
+
+.Arrange_Icon{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.Txt_Arrange{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.fa-solid{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.Second_Section_List{
+        width: 100%;
+        height: 20%;
+    margin-top: 4%;
+    list-style-type: none;
+    line-height: 200%;
+    color: #969696;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.Second_SEC_Image_Div{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.Service_Image{
+    width: 100%;
+    height: 60%;
+}
+
+.Third_Sec{
+width: 100%;
+height: 501px;
+}
+
+.Outside_Img{
+    width: 100%;
+    height: 100%;
+}
+
+.Forth_Sec{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 1105.13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Menu_Section_Container{
+    width:80%;
+}
+
+.Menu_Header1_Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 5%;
+    align-content: end;
+    font-family: "Slabo 27px", serif;
+    color: #253048;
+    font-size: 26px;
+    margin-top: 3%;
+}
+
+.Menu_Header2_Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 4%;
+    align-content: center;
+    color: #c1ab84;
+    font-size: 15px;
+    font-family: "Sofia", serif;
+    font-style: oblique;
+}
+
+.Menu{
+width:100%;
+height: 35%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: center;
+}
+
+#Menu_Margin_Top{
+    margin-top: 7%;
+}
+
+.Arrange_Menu_Vertically{
+       width: 31.5%;
+       height: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       align-content: center;
+}
+
+.Vertical_Center{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap:4%;
+}
+
+.Menu_Img_Container{
+    width: 100%;
+    height: 88%;
+}
+
+.Sec_Menu_Images{
+    width: 100%;
+    height: 100%;
+}
+
+.Header_Text_Container{
+    width:100%;
+    height: 10%;
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+align-content: end;
+justify-content: center;
+}
+
+.General_Text_Container{
+    width:100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    line-height: 175%;
+}
+.Menu_Style_Type{
+    font-family: "Slabo 27px", serif;
+    color: #253048;
+    font-size: 18px;
+}
+
+.Text_Menu_Style_Type{
+    color: #969696;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.Menu_Button_Container{
+    width: 100%;
+    height: 11%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Menu_Button_Form{
+    width: 11%;
+    height: 100%;
+}
+
+.Menu_Button{
+    width: 100%;
+    height: 100%;
+    background-color: #c1ab84;
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 4px;
+}
+
+.Fifth_Section{
+    width:100%;
+    height: 500px;
+}
+
+.Sec5_Img{
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+}
+
+.fa-regular{
+    font-size: 40px;
+    color:white;
+}
+
+.Text1_Container{
+    width:100%;  
+    height: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-size: 25px;
+    color:white;
+}
+
+.Text2_Container{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    color:white;
+    line-height: 200%;
+}
+
+.Width_Container{
+width: 100%;
+height: 30%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+}
+
+.Text3_Container{
+    width:100%;  
+    height: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
+    justify-content: center;
+    font-size: 18px;
+    color:white;
+}
+
+.Text4_Container{
+    width:100%;  
+    height: 5.5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
+    justify-content: center;
+    font-size: 14px;
+    color:#969696;
+    font-weight: bold;
+}
+
+.Button_Container_Sec5{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: end;
+    gap:0.3%;
+}
+
+.Button_Sec5{
+    width: 30px;
+    height: 30px;
+    color: #969696;
+    border: solid #969696 2px;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 100%;
+    background-color: transparent;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.Button_Sec5:hover{
+background-color: white;
+}
+
+.Comments_Icon_Container{
+    width:100%;
+    height: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:-420px;
+}
+
+footer{
+    width:100%;
+    height: 927.2px;
+}
+.First_Footer{
+    width:100%;
+    height: 452.25px;
+    background-color: #403d38;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Footer_Container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 4%;
+}
+
+.Footer_Col{
+width:23%;
+height: 100%;
+}
+
+.Footer_Titles{
+    font-size: 110%;
+    color: white;
+}
+
+.Footer_Writing_Style{
+    color: #969696;
+    font-size: 98%;
+    line-height: 175%;
+}
+
+.List_Middle_Col{
+    color: #969696;
+    font-size: 98%;
+    list-style-type: '›   ';
+}
+
+.Last_List{
+    color: #969696;
+    font-size: 98%;
+    height: 96%;
+    list-style-type: none;
+}
+
+.Footer_Map_Container{
+    width: 100%;
+    height: 70%;
+    z-index:100;
+    position: relative;
+}
+
+.World_Map_Image{
+    width: 100%;
+    height: 100%;
+    opacity: 0.06;
+}
+.List_inlast{
+z-index:1000;
+height: 100%;
+position: relative;
+margin-top: -270px;
+}
+
+#List_Col{
+    height: 13%;
+    display:list-item;
+    align-content: center;
+    line-height: 175%;
+}
+
+.Not_Last_Col_List{
+border-bottom: solid #96969622 1px;
+}
+
+.Second_Footer{
+    width: 100%;
+    height: 474.95px;
+    background-color:#353330;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap:5%;
+}
+
+.Second_Footer_Row{
+    width:100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#More_Height{
+    height: 20%;
+    display:list-item;
+    align-content: center;
+    line-height: 175%;
+}
+
+.Footer_Image{
+    width: 32%;
+    height: 100%;
+}
+
+.Icon_Container{
+    width:21%;
+    height: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.Footer_Icons_a{
+    width:70px;
+    height: 70px;
+    border-radius: 100%;
+    text-decoration: none;
+    background-color:#403d38;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#Facebook{
+    color:#969696;
+    transition: all;
+    transition-duration: 0.5s;
+}
+#Facebook:hover{
+background-color: #0878e9;
+color: white;
+}
+
+#Instagram{
+    color:#969696;
+    transition: all;
+    transition-duration: 0.5s;
+}
+#Instagram:hover{
+background-color: #ba3173;
+color: white;
+}
+
+#Tiktok{
+    color:#969696;
+    transition: all;
+    transition-duration: 0.5s;
+}
+#Tiktok:hover{
+background-color: #251528;
+color: white;
+}
+
+#X{
+    color:#969696;
+    transition: all;
+    transition-duration: 0.5s;
+}
+#X:hover{
+background-color: #000000;
+color: white;
+}
+
+.fa-brands{
+    font-size: x-large;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+#Footer_More_List{
+    color:#969696;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+#Footer_More_List:hover{
+    color:white
+}
